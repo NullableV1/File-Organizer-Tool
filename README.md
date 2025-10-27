@@ -1,4 +1,4 @@
-# 🗂️ File Organizer
+#  File Organizer
 
 **File Organizer** is a simple **Java** tool that helps you **organize files** in a given directory based on their type (images, videos, documents, archives, etc.).
 
@@ -16,7 +16,7 @@ Notes:
 - You **must provide a directory path** as an argument when running the program.
 
 ---
-## 📦 Supported File Categories
+##  Supported File Categories
 
 | Category | Example Extensions | Destination Folder |
 |-----------|--------------------|--------------------|
@@ -27,8 +27,18 @@ Notes:
 | Archives | `.zip`, `.rar`, `.7z` | `Archives` |
 And More .....
 ---
-## 🚀 How to Install
+##  How to Install
 Open a terminal in the tool’s directory and run:
 ```bash
 makepkg -si
+```
+##  How to Use
+
+After installation, run the tool followed by the target directory path.  
+```bash
+file-organizer FILE_PATH
+```
+For example:
+```bash
+file-organizer ~/Downloads
 ```
